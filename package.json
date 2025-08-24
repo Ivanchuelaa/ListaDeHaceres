@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Ivanchuelaa/ListaDeHaceres",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^7.1.2"
@@ -14,4 +16,5 @@
   "dependencies": {
     "uuid": "^11.1.0"
   }
+  
 }
